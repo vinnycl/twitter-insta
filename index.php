@@ -17,14 +17,7 @@ $query = array(
 $results = $toa->get('search/tweets', $query);
 
 
-echo "  <html>
-
-<head>
-<title> Festa do Online</title>
-<meta http-equiv="refresh" content="30">
-</head>
-
-<body>";
+echo "  <html> <head> <title> Festa do Online</title> <meta http-equiv='refresh' content='30'> </head> <body>";
 
 echo "<ul class='posts'>";
 
